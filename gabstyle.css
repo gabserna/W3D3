@@ -85,8 +85,8 @@ body{
 }
 
 .section img {
-  width: 35%;
-  max-width: 420px;
+  width: 45%;
+  max-width: 30rem;
   height: auto;
   object-fit: cover;
 }
