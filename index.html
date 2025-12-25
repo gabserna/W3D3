@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" >
-<a href="https://www.w3schools.com/html/default.asp"></a>
 <head>
+  <meta charset="UTF-8" />
   <title>W3D3&D4</title>
-  <link rel="stylesheet" href="gabstyle.css">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="gabstyle.css" />
+
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap" rel="stylesheet">
 </head>
 <body id="home">
-    <nav>
-        <div class="menu">
-        <ul>
-                <li style="float:left"><a href="#freshest">Freshest</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#home">Home</a></li>
-        </ul>
-        </div>
-    </nav>
-    <header>
-        <div class="layer"></div>
-        <div class="title">
-            <h1>Freshest</h1>
-            <br>
-            <h2>Clean, Healthy, Always Fresh Foods</h2>
-        </div>
-    </header>
-    <main>
-        <div id="menu" class="section">
-                <img class="img1" src="img/bread.jpg" alt="Fresh hand-made bread everyday!">
-            </figure>
-            <span class="text1"><h1>Fresh bread</h1><p>Bacon ipsum dolor amet veniam esse in adipisicing andouille. Brisket excepteur ut alcatra leberkas chislic aute duis minim beef ribs. Chicken chuck ribeye minim drumstick. Laboris consectetur shank, rump flank short loin boudin shoulder tongue.</p>
-            </span>
-            </div>
-        </div>       
-        <div id="contact" class="section">
-                <img class="img2" src="img/pineapple.jpg" alt="Contact">
-                <span class="text1"><h1>We have Pineaples</h1><p>Cow shank alcatra chuck venison beef ribs t-bone biltong. Biltong tail doner short loin, chuck shankle shoulder. Bacon capicola doner, andouille pastrami filet mignon spare ribs. Pork belly prosciutto boudin cupim strip steak doner.</p>
-                </span>
-        </div>
+    <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-logo"><a href="#freshest">Freshest</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#home">Home</a></li>
+    </ul>
+  </nav>
+    
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-title">
+      <h1>Freshest</h1>
+      <h2>Clean, Healthy, Always Fresh Foods</h2>
     </div>
-    <div id="freshest" class="section">
-    <div >
-            <img class="img3" src="img/pasta.jpg" alt="must try our pasta!">
-            <span class="text1"><h1>Pasta!</h1><p>Cow tenderloin andouille burgdoggen shankle turducken. Kielbasa tail tri-tip boudin ham hock doner turkey hamburger brisket sausage shoulder t-bone chislic drumstick. Andouille kevin frankfurter flank burgdoggen. Ham hock picanha tongue tri-tip strip steak short ribs capicola flank.</p>
-            </span>
-        </div>
-    </main>
+  </header>
+
+    <!-- Main Content -->
+    <main>
+    <section id="menu" class="section">
+      <img src="img/bread.jpg" alt="Fresh hand-made bread everyday" />
+      <div class="section-text">
+        <h3>Fresh Bread</h3>
+        <p>Bacon ipsum dolor amet veniam esse in adipisicing andouille...</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section reverse">
+      <img src="img/pineapple.jpg" alt="Fresh pineapples" />
+      <div class="section-text">
+        <h3>We Have Pineapples</h3>
+        <p>Cow shank alcatra chuck venison beef ribs...</p>
+      </div>
+    </section>
+
+    <section id="freshest" class="section">
+      <img src="img/pasta.jpg" alt="Must try our pasta" />
+      <div class="section-text">
+        <h3>Pasta!</h3>
+        <p>Cow tenderloin andouille burgdoggen...</p>
+      </div>
+    </section>
+
+  </main>
 </body>
 </html>
